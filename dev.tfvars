@@ -1,0 +1,7 @@
+region                = "eu-west-2"
+vpc_cidr_block        = "10.0.0.0/16"
+prod_public_subnet-1  = "10.0.1.0/28"
+prod_public_subnet-2  = "10.0.2.0/28"
+prod_private_subnet-1 = "10.0.3.0/28"
+prod_private_subnet-2 = "10.0.4.0/28"
+rout_table            = "prod_public_rt,prod_private_rt"
